@@ -1,0 +1,39 @@
+
+body {
+  background-color: #99d0d1;
+}
+
+.card-container {
+  width: 100%; /* take up full width */
+  height: 100vh; /* take up full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-icon {
+  cursor: pointer;
+  margin-right: 10px;
+  color: #337ab7; /* blue color */
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #d9534f; /* red color */
+}
+
+.edit-icon:hover {
+  color: #23527c; /* darker blue color */
+}
+
+.delete-icon:hover {
+  color: #c9302c; /* darker red color */
+}
